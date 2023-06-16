@@ -4,8 +4,8 @@ DIR=$(dirname "$0")
 
 source "${DIR}/colors.sh"
 
-__SD="$HOME/.sd"
-__INIT="$HOME/.sd/init.sh"
+__SD="$HOME/.scripts"
+__INIT="$HOME/.scripts/init.sh"
 __BASHRC="$HOME/.bashrc"
 __ZSHRC="$HOME/.zshrc"
 

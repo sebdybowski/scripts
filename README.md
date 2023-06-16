@@ -1,4 +1,4 @@
-# Seb Dybowski's dotfiles
+# Seb Dybowski's scripts
 Compatible with *[bash](https://www.gnu.org/software/bash/)* and *[zsh](https://zsh.sourceforge.io/Doc/)*. 
 
 Supported package managers:
@@ -10,11 +10,11 @@ Supported package managers:
 ## Setup
 ### Install script
 ```bash
-bash -c  "$(wget -qO- https://raw.githubusercontent.com/sebdybowski/dotfiles/main/install.sh)"
+bash -c  "$(wget -qO- https://raw.githubusercontent.com/sebdybowski/scripts/main/install.sh)"
 ```
 
 ```bash
-bash -c  "$(curl -sLo- https://raw.githubusercontent.com/sebdybowski/dotfiles/main/install.sh)"
+bash -c  "$(curl -sLo- https://raw.githubusercontent.com/sebdybowski/scripts/main/install.sh)"
 ```
 
 
@@ -22,11 +22,11 @@ bash -c  "$(curl -sLo- https://raw.githubusercontent.com/sebdybowski/dotfiles/ma
 1. Perform command: 
 
 ```bash
-git clone --recursive https://github.com/sebdybowski/dotfiles.git ~/.sd
+git clone --recursive https://github.com/sebdybowski/scripts.git ~/.scripts
 ```
 
 2. Add below line to your `.bashrc` or `.zshrc`.
 
 ```bash
-source "$HOME/.sd/init.sh"
+source "$HOME/.scripts/init.sh"
 ```
