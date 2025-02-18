@@ -12,9 +12,9 @@ __success() {
 
 gsb() {
     if
-        git add -A &&
-            git commit -m $1 &&
-            git push origin HEAD
+        git add -A
+        git commit -m "$1"
+        git push origin HEAD
     then
         __success
     else
